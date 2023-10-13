@@ -14,8 +14,8 @@ top_p_values = [0.9, 0.95]
 
 # Initialize your model and pipeline here, if needed
 device_type = "cuda"  # Change as per your hardware
-model_id = "model_id_here"
-model_basename = "model_basename_here"
+model_id = "TheBloke/Llama-2-7b-Chat-GGUF"
+model_basename = "llama-2-7b-chat.Q4_K_M.gguf"
 use_history = True
 prompt_template_type = "llama"
 
